@@ -1,1 +1,21 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
 
+.edu-au-vic-wa-nt-dots-<uniquifier> {
+  font-family: "Edu AU VIC WA NT Dots", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+body{
+  background: #263563;
+  margin: 3px;
+}
+
+.botao{
+  display: block;
+  weitght: 250px;
+  background-color: green;
+  font-family: "Edu AU VIC WA NT Dots", system-ui;
+  color: white;
+}
